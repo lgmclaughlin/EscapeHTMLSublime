@@ -1,0 +1,12 @@
+[
+	{
+		"id": "selection",
+		"children": [
+			{
+				"id": "escapehtml",
+				"caption": "Escape HTML",
+				"command": "escape"
+			}
+		]
+	}
+]
