@@ -13,11 +13,12 @@ While working on a project in which we were putting example HTML snippets on web
 Installation
 ============
 For now, the package can only be installed through the following method:
+
 1. Download [EscapeHTML.sublime-package]
 2. Place package into 
-	Windows: %APPDATA%\Sublime Text [version]\Packages
-	OS X:    ~/Library/Application Support/Sublime Text [version]/Packages
-	Linux:   ~/.config/sublime-text-[version]/Packages
+  * Windows: %APPDATA%\Sublime Text [version]\Installed Packages
+  * OS X:    ~/Library/Application Support/Sublime Text [version]/Installed Packages
+  * Linux:   ~/.config/sublime-text-[version]/Installed Packages
 
 Sublime takes care of the rest!
 
