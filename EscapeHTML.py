@@ -7,7 +7,10 @@ class EscapeCommand(sublime_plugin.TextCommand):
         '\"' : '&quot;',
         '&'  : '&amp;',
         '<'  : '&lt;',
-        '>'  : '&gt;'
+        '>'  : '&gt;',
+        # Replace newlines with breaks for
+        # HTML display
+        '\n' : '<br />\n'
     }
 
     def run(self, edit):
